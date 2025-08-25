@@ -118,7 +118,7 @@
         <p>
           I’m a Computer Science major at Baruch College passionate about building efficient, data-driven backend systems, with experience in Java, Python, AWS, and projects ranging from multithreaded crawlers to AI/ML models.
         </p>
-        <p><strong>Fun fact:</strong> I enjoy boxing in my free time — it’s a great stress reliever and a lot of fun!
+        <p><strong>Fun fact:</strong> I enjoy boxing in my free time. It's a lot of fun and a great way to relieve stress.
         </p>
       </div>
     </section>
