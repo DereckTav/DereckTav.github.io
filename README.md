@@ -1,11 +1,9 @@
-<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Your Name — Portfolio</title>
   <meta name="description" content="Personal website and portfolio for Your Name: projects, resume, and links." />
-  <meta name="author" content="Your Name" />
   <meta property="og:title" content="Your Name — Portfolio" />
   <meta property="og:description" content="Projects, resume, and links." />
   <meta property="og:type" content="website" />
@@ -91,7 +89,6 @@
       <nav aria-label="Primary">
         <div class="brand" aria-label="Home">
           <span class="dot" aria-hidden="true"></span>
-          <a href="#" aria-label="Your Name Home">Your Name</a>
         </div>
         <div class="navlinks" role="navigation">
           <a href="#about">About</a>
@@ -107,59 +104,60 @@
     <section aria-labelledby="intro-heading">
       <div class="hero">
         <!-- Replace photo.jpg with your image file name in the repo root -->
-        <img src="photo.jpg" alt="Portrait of Your Name" />
+        <img src="1755101710952.jpg" alt="Portrait of Your Name" />
         <div>
-          <span class="tag">Open to opportunities</span>
-          <h1 id="intro-heading">Hi, I’m <span style="color:var(--brand)">Your Name</span>.</h1>
-          <p class="subtitle">Your one-liner (e.g., CS @ Baruch • Backend & Data • Java/Python)</p>
+          <h1 id="intro-heading">Hi, I’m <span style="color:var(--brand)">Dereck Taverne</span>.</h1>
+          <p class="subtitle">Welcome to my personal portfolio website!</p>
           <div class="buttons">
             <!-- Replace resume.pdf with your file name -->
             <a class="btn primary" href="resume.pdf" target="_blank" rel="noopener" aria-label="Open resume in new tab">📄 View Resume</a>
-            <a class="btn" href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noopener" aria-label="LinkedIn profile">🔗 LinkedIn</a>
-            <a class="btn" href="https://github.com/your-username" target="_blank" rel="noopener" aria-label="GitHub profile">💻 GitHub</a>
+            <a class="btn" href="https://www.linkedin.com/in/dereck-taverne" target="_blank" rel="noopener" aria-label="LinkedIn profile">🔗 LinkedIn</a>
+            <a class="btn" href="https://github.com/dereckTav" target="_blank" rel="noopener" aria-label="GitHub profile">💻 GitHub</a>
           </div>
         </div>
       </div>
       <div id="about" class="card" style="margin-top:12px">
         <h2>About</h2>
         <p>
-          Short bio (2–4 sentences). Mention what you’re studying/working on, your interests, and what you’re currently learning.
+          I’m a Computer Science major at Baruch College passionate about building efficient, data-driven backend systems, with experience in Java, Python, AWS, and projects ranging from multithreaded crawlers to AI/ML models.
         </p>
-        <p><strong>Fun fact:</strong> Add one fun, human detail here.
+        <p><strong>Fun fact:</strong> I enjoy boxing in my free time — it’s a great stress reliever and a lot of fun!
         </p>
       </div>
     </section>
-
+    
+    <!--
     <!-- PROJECTS -->
-    <section id="projects" aria-labelledby="projects-heading">
-      <h2 id="projects-heading">Projects</h2>
-      <div class="grid">
-        <!-- Project Card 1 -->
-        <article class="card project">
-          <div>
-            <h3><a href="https://github.com/your-username/project-one" target="_blank" rel="noopener">Project One</a></h3>
-            <p>1–2 line description of what it does, the stack, and your role.</p>
-          </div>
-          <div class="meta">Tech: Python, FastAPI • Highlights: Deployed on Render</div>
+    <!-- <section id="projects" aria-labelledby="projects-heading">
+    <!--  <h2 id="projects-heading">Projects</h2>
+    <!--  <div class="grid">
+    <!--    <!-- Project Card 1 -->
+    <!--    <article class="card project">
+    <!--      <div>
+    <!--        <h3><a href="https://github.com/your-username/project-one" target="_blank" rel="noopener">Project One</a></h3>
+    <!--        <p>1–2 line description of what it does, the stack, and your role.</p>
+    <!--      </div><!--
+          <div clas<!--s="meta">Tech: Python, FastAPI • Highlights: Deployed on Render</div>
         </article>
         <!-- Project Card 2 -->
-        <article class="card project">
-          <div>
-            <h3><a href="https://github.com/your-username/project-two" target="_blank" rel="noopener">Project Two</a></h3>
-            <p>1–2 line description of what it does, the stack, and your role.</p>
-          </div>
-          <div class="meta">Tech: Java, Spring Boot • Highlights: 500+ users</div>
-        </article>
+    <!--    <article class="card project">
+          <div<!-->
+    <!--        <h3><a href="https://github.com/your-username/project-two" target="_blank" rel=<!--"noopener">Project Two</a></h3>
+    <!--        <p>1–2 line description of what it does, the stack, and your role.</p>
+          </div<!-->
+    <!--      <div class="meta">Tech: Java, Spring Boot • Highlights: 500+ users</div>
+        </article><!--
         <!-- Project Card 3 -->
-        <article class="card project">
-          <div>
-            <h3><a href="https://github.com/your-username/project-three" target="_blank" rel="noopener">Project Three</a></h3>
-            <p>1–2 line description of what it does, the stack, and your role.</p>
-          </div>
-          <div class="meta">Tech: JavaScript, React • Highlights: Lighthouse 95+</div>
-        </article>
-      </div>
-    </section>
+    <!--  <article class="card project">
+    <!--      <div>
+    <!--        <h3><a href="https://github.com/your-username/project-three" target="_blank" rel="noopener">Project Three</a></h3>
+    <!--        <p>1–2 line description of what it does, the stack, and your role.</p>
+    <!--      </div>
+    <!--      <div class="meta">Tech: JavaScript, React • Highlights: Lighthouse 95+</div>
+    <!--    </article>
+    <!--  </div>
+    <!-- </section>
+    -->
 
     <!-- CONTACT / LINKS -->
     <section id="contact" aria-labelledby="contact-heading">
@@ -167,9 +165,9 @@
       <div class="card">
         <p>Best way to reach me:</p>
         <ul>
-          <li>Email: <a href="mailto:you@example.com">you@example.com</a></li>
-          <li>LinkedIn: <a href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noopener">@your-handle</a></li>
-          <li>GitHub: <a href="https://github.com/your-username" target="_blank" rel="noopener">@your-username</a></li>
+          <li>Email: <a href="mailto:derecktaverne@gmail.com">derecktaverne@gmail.com</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/dereck-taverne" target="_blank" rel="noopener">@Dereck Taverne</a></li>
+          <li>GitHub: <a href="https://github.com/dereckTav" target="_blank" rel="noopener">@dereckTav</a></li>
         </ul>
       </div>
     </section>
