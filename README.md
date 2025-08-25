@@ -87,9 +87,6 @@
   <header>
     <div class="container">
       <nav aria-label="Primary">
-        <div class="brand" aria-label="Home">
-          <span class="dot" aria-hidden="true"></span>
-        </div>
         <div class="navlinks" role="navigation">
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
