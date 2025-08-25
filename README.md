@@ -89,7 +89,7 @@
       <nav aria-label="Primary">
         <div class="navlinks" role="navigation">
           <a href="#about">About</a>
-          <a href="#projects">Projects</a>
+          <!-- <a href="#projects">Projects</a> -->
           <a href="#contact">Contact</a>
         </div>
       </nav>
